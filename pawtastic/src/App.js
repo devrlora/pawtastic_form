@@ -48,7 +48,8 @@ export default class App extends Component {
           {/* <input type="submit"  value="Submit" onClick={this.handleSubmit}/> */}
         </label>
       </form>
-      
+      <input type="checkbox" id="toggle" class="checkbox" />
+<label for="toggle" class="switch"></label>
                         
       </div>
       
