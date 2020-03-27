@@ -1,12 +1,20 @@
 body{
-  background-color: navy;
+  background-image: url("https://live.staticflickr.com/3809/11675249265_92770ed09f_b.jpg");
 }
 
 h1{
 text-align: center;
+font-family: 'Baloo Da 2';
+color: navy;
 }
 
 form{
   font-size: 20pt;
   font-family: 'Baloo Da 2';
+  color: navy;
+}
+img{
+  height: 40px;
+  width:40px;
+  background-color: transparent;
 }

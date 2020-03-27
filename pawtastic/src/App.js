@@ -25,27 +25,31 @@ export default class App extends Component {
   render() {
     return (
       <div>
+        <img src="https://i.dlpng.com/static/png/6103810-dog-paw-paw-prints-transparent-background-png-clipart-hiclipart-black-paw-print-png-800_750_preview.png"/>
+        <h1>Yay, we love dogs!</h1>
 <form onSubmit={this.handleChange}>
         <label>  
           Name: 
           <input type="text"  value={this.state.value} onChange={this.handleChange}/>
-          <input type="submit"  value="Submit" onClick={this.handleSubmit}/>
+          {/* <input type="submit"  value="Submit" onClick={this.handleSubmit}/> */}
         </label>
       </form>
       <form onSubmit={this.handleChange}>
       <label>  
           Breed: 
           <input type="text"  value={this.state.value} onChange={this.handleChange}/>
-          <input type="submit"  value="Submit" onClick={this.handleSubmit}/>
+          {/* <input type="submit"  value="Submit" onClick={this.handleSubmit}/> */}
         </label>
       </form>
       <form onSubmit={this.handleChange}>
       <label>  
           Birthday: 
           <input type="date"  value={this.state.value} onChange={this.handleChange}/>
-          <input type="submit"  value="Submit" onClick={this.handleSubmit}/>
+          {/* <input type="submit"  value="Submit" onClick={this.handleSubmit}/> */}
         </label>
       </form>
+      
+                        
       </div>
       
     )
