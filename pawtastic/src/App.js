@@ -12,13 +12,13 @@ export default class App extends Component {
 
     this.state = {value: ''}
 
-          {/* create a way to pass user input to to other components */}
+          /* create a way to pass user input to to other components */
 
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
-            {/* create a way to register an event change */}
+            /* create a way to register an event change */
 
   handleChange(event) {
     this.setState({value: event.target.value})
