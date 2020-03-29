@@ -11,6 +11,9 @@
 ### Breed:
 ### DOB:
 ### Submit:
+### Gender:
+### Weight:
+### Neutered Status:
 
 ### 3. Create a component for each input field
 ### 4. import { DogName }and export to App.js 
