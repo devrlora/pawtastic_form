@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 // import { DogDob } from './components/DogName';
 
 
-          {/* Create a component class */}
+          /* Create a component class */
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +25,7 @@ export default class App extends Component {
   }
 
   handleSubmit(event) {
-    alert(`A name was submitted: ${this.state.value}`);
+    alert(`Thank you for submitting info for: ${this.state.value}`);
     event.preventDefault();
 
   } 
@@ -58,10 +58,12 @@ export default class App extends Component {
       <label>  
           Birthday: 
           <input type="date"  value={this.state.value} onChange={this.handleChange}/>
-          {/* <input type="submit"  value="Submit" onClick={this.handleSubmit}/> */}
         </label>
       </form>
+                <input type="submit"  value="Submit" onClick={this.handleSubmit}/>
+
      </div>
+
       </div>
     );
   }
