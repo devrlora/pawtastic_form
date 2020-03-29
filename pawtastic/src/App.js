@@ -32,7 +32,8 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
+      <div id='label-container'>
+        <div id='label child'>
         <img src="https://i.dlpng.com/static/png/6103810-dog-paw-paw-prints-transparent-background-png-clipart-hiclipart-black-paw-print-png-800_750_preview.png"alt="paw logo"/>
         <h1>Yay, we love dogs! Give Us the basics about your pup.</h1>
          <form onSubmit={this.handleChange}>
@@ -60,6 +61,7 @@ export default class App extends Component {
           {/* <input type="submit"  value="Submit" onClick={this.handleSubmit}/> */}
         </label>
       </form>
+     </div>
       </div>
     );
   }

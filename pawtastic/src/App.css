@@ -28,3 +28,6 @@ img{
   flex-direction: column;
   justify-content: center;
 }
+#label-child{
+text-align: center;
+}
